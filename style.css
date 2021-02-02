@@ -10,7 +10,6 @@ header {
   min-height: 500px;
   width: 100%;
   background-image: url(bg.jpg);
-
   background-size: cover !important;
   text-align: center;
   overflow: hidden;
@@ -79,6 +78,7 @@ ul{
   color: #b9b9b9;
 }
 .about{
+  background: rgb(29, 28, 28);
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
@@ -93,6 +93,10 @@ ul{
 }
 .about p {
   line-height: 30px;
+  color: #7A7A7A;
+}
+.about p a{
+  text-decoration: none;
   color: #7A7A7A;
 }
 .button{
@@ -132,4 +136,20 @@ ul{
   margin-top: 0%;
   width: 500px;
   margin-left: 40%;
+}
+.contact{
+  background: rgb(209, 208, 208);
+  padding-top: 66px;
+  padding-bottom: 66px;
+  overflow: hidden;
+  font-family: 'Century Gothic',sans-serif;
+  text-align: center;
+}
+.contact h2{
+  display: inline;
+  margin: auto;
+}
+.contact p{
+  display: inline;
+  margin: auto;
 }
