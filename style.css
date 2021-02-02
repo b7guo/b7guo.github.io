@@ -9,7 +9,7 @@ header {
   height: 1050px;
   min-height: 500px;
   width: 100%;
-  background-image: url(bg.jpg);
+  background-image: url(img/bg.jpg);
   background-size: cover !important;
   text-align: center;
   overflow: hidden;
