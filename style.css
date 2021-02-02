@@ -1,0 +1,135 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #0f0f0f;
+  background-size: cover;
+}
+header {
+  position: relative;
+  height: 1050px;
+  min-height: 500px;
+  width: 100%;
+  background-image: url(bg.jpg);
+
+  background-size: cover !important;
+  text-align: center;
+  overflow: hidden;
+}
+.nav{
+  list-style: none;
+  margin-top: 1%;
+}
+.nav li{
+  display: inline-block;
+}
+.nav li a{
+  color: white;
+  padding: 5px 20px;
+  font-family: 'Century Gothic',sans-serif;
+  font-size: 15px;
+  text-decoration:none;
+}
+.nav li a:hover{
+  color: #b9b9b9;
+  border: 1px solid white;
+}
+.home{
+  width: 450px;
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+.home-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.home h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.home h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.home p{
+  text-align: justify;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.home li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.home li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.home li a:hover{
+  color: #b9b9b9;
+}
+.about{
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+  font-family: 'Century Gothic',sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.about h2 {
+  
+  color: #fff;
+  margin-bottom: 12px;
+}
+.about p {
+  line-height: 30px;
+  color: #7A7A7A;
+}
+.button{
+  margin-top:5% ;
+  text-align: center;
+}
+.btn-one{
+  border: 1px solid white;
+  padding: 10px 30px;
+  color: white;
+  text-decoration:none;
+}
+.btn-one:hover{
+  color: #b9b9b9;
+}
+.skill{
+  background: #fff;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+  font-family: 'Century Gothic',sans-serif;
+  text-align: left;
+  letter-spacing: 1px;
+}
+.skill h2{
+  color: #303336;
+  margin-bottom: 12px;
+  margin-left: 30%;
+}
+.skill p{
+  line-height: 30px;
+  color: #7A7A7A;
+  margin-left: 40%;
+  margin-top: 1%;
+}
+.skill progress{
+  margin-top: 0%;
+  width: 500px;
+  margin-left: 40%;
+}
