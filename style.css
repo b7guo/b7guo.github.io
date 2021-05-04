@@ -5,7 +5,7 @@
   background: transparent;
   background-size: cover;
   scroll-behavior: smooth;
-  font-family:'Century Gothic',sans-serif;
+  font-family:'opensans-bold', sans-serif;
 }
 .navbar {
   background: rgb(29, 28, 28);
@@ -203,7 +203,7 @@
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
-  font-family: 'Century Gothic',sans-serif;
+  font-family: 'opensans-bold', sans-serif;
   text-align: center;
   letter-spacing: 1px;
 }
@@ -268,7 +268,7 @@
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
-  font-family: 'Century Gothic',sans-serif;
+  font-family: 'opensans-bold', sans-serif;
   text-align: center;
   letter-spacing: 1px;
 }
@@ -332,7 +332,7 @@
   padding-top: 66px;
   padding-bottom: 66px;
   overflow: hidden;
-  font-family: 'Century Gothic',sans-serif;
+  font-family: 'opensans-bold', sans-serif;
   text-align: center;
 }
 .contact h2{
