@@ -24,14 +24,20 @@ const highlightMenu = () => {
     homeMenu.classList.add('highlight');
     aboutMenu.classList.remove('highlight');
     return;
-  } else if (window.innerWidth > 960 && scrollPos < 1400) {
+  } else if (window.innerWidth > 960 && scrollPos < 1200) {
     aboutMenu.classList.add('highlight');
     homeMenu.classList.remove('highlight');
-    servicesMenu.classList.remove('highlight');
+    skillMenu.classList.remove('highlight');
     return;
-  } else if (window.innerWidth > 960 && scrollPos < 2345) {
+  } else if (window.innerWidth > 960 && scrollPos < 1900) {
     skillMenu.classList.add('highlight');
     aboutMenu.classList.remove('highlight');
+    contactMenu.classList.remove('highlight');
+    return;
+  }
+  else if (window.innerWidth > 960 && scrollPos < 2400) {
+    contactMenu.classList.add('highlight');
+    skillMenu.classList.remove('highlight');
     return;
   }
 
