@@ -7,59 +7,105 @@
     <title>Jay Guo | Software Engineer</title>
   </head>
   <body>
-    <header>
-      <div class="row">
-        <ul class="nav">
-          <li><a href="#home">HOME</a></li>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#skill">SKILLS</a></li>
-          <li><a href="#contact">CONTACT</a></li>
-          </ul>
+  <!--Navbar Section-->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">HOME</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">ABOUT</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#skill" class="navbar__links" id="skill-page">SKILLS</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#contact" class="navbar__links" id="contact-page">CONTACT</a>
+          </li>
+        </ul>
       </div>
-      <div class="home" id="home">
-        <img src="img/profile1.jpg" alt="" class="w3-round" width="130" height="130">
-        <h1>Bingrui Guo</h1>
-        <h5>Software Engineer</h5>
+    </nav>
+
+    <!--Profile Section-->
+    <div class="profile" id="home">
+      <div class="profile_container">
+        <img src="img/profile1.jpg" alt="" class="profile_pic" width="130" height="130">
+        <h1 class="profile_heading">Bingrui Guo</h1>
+        <h5 class="profile_description">Software Engineer</h5>
         <ul>
           <li><a href="https://github.com/b7guo"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
         </ul>
       </div>
-  
-    </header>
+    </div>
+    <!--About Section-->
     <div class="about" id="about">
-      <h2>Hello World!</h2>
+      <span><h2>Hello World!</h2>
       <p>
-        This is Bingrui Guo, a Software Engineer interested in game development.
-        <br/>
-        I am currently finishing my undergrad in Universit of California - San Diego (San Jose, CA) <br/>as Computer Engineer Major.
-        <br/>
+        My name is Jay Guo, a Software Engineer interested in game development.
+        <br>
+        I am currently finishing my undergrad in Universit of California - San Diego (San Jose, CA) <br>as Computer Engineering Major.
+        <br>
         My dream is to make the most exciting game and change how the world view the gaming community.
       </p>
       <p>Free free to <a href="#contact" >contact</a> me if you have any questions</p>
+      </span>
       <div class="button">
         <a href="https://github.com/b7guo/resume/blob/main/resume.pdf" class="btn-one">Resume PDF</a>
       </div>
     </div>
-    <div class="skill" id="skill">
-      <h2>Skills</h2>
-      <p>C++</p>
-      <progress id="c++" max="100" value="60"></progress>
-      <p>HTML5/CSS</p>
-      <progress id="html" max="100" value="50"></progress>
-      <p>JAVA</p>
-      <progress id="java" max="100" value="30"></progress>
-      <p>Python</p>
-      <progress id="python" max="100" value="30"></progress>
-    </div>
+
+    <section id="resume">
+      <!--Skill Section-->
+      <div class="skill" id="skill">
+        <h2><span>Skills</span></h2>
+        <p><strong>Languages</strong>
+        :  C++, HTML/CSS/JavaScript, Python<br>
+        <strong>Frameworks / Database</strong>
+        :  Node.js, Express.js, MongoDB<br>
+        <strong>Tools</strong>: Postman, VScode, Git, Docker<br>
+        <strong>Environment</strong>: Linux/Unix, MacOS
+        </p>
+        <div class="bars">
+        <li>
+          <span class="bar-expand cpp" style="width:80%"></span>
+          <em>C++</em>
+        </li>
+        <li>
+          <span class="bar-expand html" style="width:60%"></span>
+          <em>HTML5/CSS</em>
+        </li>
+        <li>
+          <span class="bar-expand java" style="width:50%"></span>
+          <em>JAVASCRIPT(ES6)</em>
+        </li>
+        <li>
+          <span class="bar-expand python"style="width:40%"></span>
+          <em>PYTHON</em>
+        </li>
+        </div>
+      </div>
+    </section>
+    <!--contact Section-->
     <div class="contact" id="contact">
-      <h2>Email</h2>
+      <h2>Contact Me</h2>
+      <h3>Email</h3>
       <p>b7guo@ucsd.edu</p>
-      <h2>Phone</h2>
+      <h3>Phone</h3>
       <p>xxx-xxx-xxxx</p>
     </div>
-    <footer>
-      <p>© Copyright 2021 Bingrui Guo</p>
+
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <p>© Copyright 2021 Bingrui Guo</p>
+      </div>
     </footer>
+    <script src="app.js"></script>
   </body>
 </html>
 
