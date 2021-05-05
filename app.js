@@ -17,25 +17,25 @@ const highlightMenu = () => {
   const skillMenu = document.querySelector('#skill-page');
   const contactMenu = document.querySelector('#contact-page');
   let scrollPos = window.scrollY;
-  // console.log(scrollPos);
+   console.log(scrollPos);
 
   // adds 'highlight' class to my menu items
-  if (window.innerWidth > 960 && scrollPos < 600) {
+  if (window.innerWidth > 768 && scrollPos < 600) {
     homeMenu.classList.add('highlight');
     aboutMenu.classList.remove('highlight');
     return;
-  } else if (window.innerWidth > 960 && scrollPos < 1200) {
+  } else if (window.innerWidth > 768 && scrollPos < 1250) {
     aboutMenu.classList.add('highlight');
     homeMenu.classList.remove('highlight');
     skillMenu.classList.remove('highlight');
     return;
-  } else if (window.innerWidth > 960 && scrollPos < 1900) {
+  } else if (window.innerWidth > 768 && scrollPos < 1900) {
     skillMenu.classList.add('highlight');
     aboutMenu.classList.remove('highlight');
     contactMenu.classList.remove('highlight');
     return;
   }
-  else if (window.innerWidth > 960 && scrollPos < 2400) {
+  else if (window.innerWidth > 768 && scrollPos < 2150) {
     contactMenu.classList.add('highlight');
     skillMenu.classList.remove('highlight');
     return;
